@@ -7,10 +7,41 @@ body {
   background: #f9f9f9;
   color: #333;
 }
-header, footer {
+
+header,
+footer {
   text-align: center;
 }
+
 a {
   color: #0066cc;
   text-decoration: none;
+}
+
+/* NEW: Navigation Bar */
+nav {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #0066cc;
 }
